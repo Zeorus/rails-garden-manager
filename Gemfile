@@ -17,6 +17,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem "nokogiri", ">= 1.11.0"
 gem "rack", ">= 2.0.8"
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
